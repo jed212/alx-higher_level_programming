@@ -31,26 +31,26 @@ class Square:
         """Return the current area of the square."""
         return (self.__size * self.__size)
 
-    def __equal__(self, other):
+    def __eq__(self, other):
         """Define the == comparision to a Square."""
         return self.area() == other.area()
 
-    def __nequal__(self, other):
+    def __ne__(self, other):
         """Define the != comparison to a Square."""
         return self.area() != other.area()
 
-    def __lthan__(self, other):
+    def __lt__(self, other):
         """Define the < comparison to a Square."""
         return self.area() < other.area()
 
-    def __lequal__(self, other):
+    def __le__(self, other):
         """Define the <= comparison to a Square."""
         return self.area() <= other.area()
 
-    def __gthan__(self, other):
+    def __gt__(self, other):
         """Define the > comparison to a Square."""
         return self.area() > other.area()
 
-    def __gequal__(self, other):
+    def __ge__(self, other):
         """Define the >= compmarison to a Square."""
         return self.area() >= other.area()
