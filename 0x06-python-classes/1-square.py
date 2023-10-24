@@ -2,8 +2,14 @@
 
 """Define a class Square."""
 
+
 class Square:
-    """Define a class Square."""
+    """Represent a square."""
+
     def __init__(self, size):
-        """Instantiate a square with a private attribute 'size'"""
+        """Initialize a new Square.
+
+        Args:
+            size (int): The size of the new square.
+        """
         self.__size = size
